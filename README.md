@@ -1,9 +1,9 @@
 # MyVisualStudio
 
-输出目录
-$(SolutionDir)../bin/$(Platform)/$(Configuration)/
-中检目录
-$(SolutionDir)../bintemp/$(Platform)/$(ProjectName)/$(Configuration)/
+1. 输出目录
+    * $(SolutionDir)../bin/$(Platform)/$(Configuration)/
+2. 中检目录
+    * $(SolutionDir)../bintemp/$(Platform)/$(ProjectName)/$(Configuration)/
 
 windows下查看动态库和静态库的函数接口
 在window下查看动态库的导出函数可以用vs自带的Dependenc工具；
